@@ -1,0 +1,74 @@
+.cap {
+	background:  rgb(118, 209, 245);
+	display: flex;
+	justify-content: center;
+	width:1100px;
+	margin:0 auto;
+	padding:20px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+	max-width: 100%;
+}
+
+
+.cap > div:last-logo3  {
+    border: 0px solid black;
+	height: 100px;
+    }
+
+
+
+.logo {
+	height: 300px;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+}
+
+.logo2 {    
+    height: 300px;
+	display: inline-block;
+	font: 13px Times New Roman;
+	font-size: 13px;
+	text-align: center;
+	color: rgb(6, 56, 9); 
+	
+}
+
+.logo3 {
+    height: 300px;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+}
+
+@media screen and (max-width: 980px)
+{
+
+.cap {
+	display: block;
+}
+
+	.logo {
+		height: 100%;
+		background: rgb(4, 8, 250, 0.5);
+		width: 100%;
+	}
+	.logo img {
+		height: 200px;
+	}
+	
+	.logo2 {
+		font: 13px Times New Roman;
+		height: 100%;
+		background: rgb(253, 249, 8, 0.5);
+		color: rgb(7, 1, 1);
+		width: 100%;
+	}
+
+	.logo3 {
+		display: none;
+	}
+
+
+
+}

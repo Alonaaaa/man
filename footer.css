@@ -1,0 +1,31 @@
+.footer
+{
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+.footer p, .footer a
+{
+font: 20px Times, Arial, Helvetica, sans-serif;
+color:#444;
+}
+ 
+.footer a
+{
+text-decoration: none;
+border-bottom:1px dotted #444;
+}
+ 
+.footer a:hover
+{
+text-decoration: none;
+border:0px;
+}
+@media screen and (max-width: 980px)
+{
+    .footer p, .footer a
+    {
+    font: 18px Times, Arial, Helvetica, sans-serif;
+    color:#444;
+    }
+}

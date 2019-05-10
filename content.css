@@ -1,0 +1,103 @@
+﻿.content
+{
+width:1100px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.content h2
+{
+font: 40px Times New Roman, Arial, Helvetica, sans-serif;
+color:rgb(11, 11, 12);
+font-weight: bold;
+text-align:center;
+}
+
+.content p
+{
+font: 25px Times New Roman, Arial, Helvetica, sans-serif;
+color:#444;
+text-indent:50px;
+line-height: 1.5;
+text-align: justify;
+}
+
+.thumb {
+    text-align: center;
+}
+
+
+.thumb img  {
+        width: 300px; 
+        height: 500px;
+        border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+        padding: 15px; /* Расстояние от картинки до рамки */
+        background:  #E0FFFF; /* Цвет фона */
+        margin-right: 10px; /* Отступ справа */
+        margin-bottom: 10px; /* Отступ снизу */
+        
+      }
+
+.form
+{
+width:1100px;
+margin:0 auto;
+padding:20px;
+font: 24px Times New Roman, Arial, Helvetica, sans-serif;
+color:#444;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+text-align: center;
+}
+.applicationButton {
+    margin-top: 5px;
+    background: rgb(118, 209, 245);
+    border: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 40px;
+    color: #444;
+    font: 30px Times New Roman, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #d68c18;
+    }
+.section li {
+    list-style-position: inside;
+    font: 25px Times New Roman, Arial, Helvetica, sans-serif;
+    color:#444;
+    text-indent:50px;
+}
+
+
+@media screen and (max-width: 980px)
+      {
+.content
+{
+      width:100%;
+      }
+.content p
+{
+font: 21px Times, Arial, Helvetica, sans-serif;}
+     
+.content h2
+{
+font: 30px Times New Roman, Arial, Helvetica, sans-serif;
+}
+.form {
+    width: 100%;
+}
+.applicationButton {
+   font: 24px Times New Roman, Arial, Helvetica, sans-serif;
+}
+   .section li {
+    font: 21px Times New Roman, Arial, Helvetica, sans-serif;
+}
+
+.thumb img  {
+    width: 150px; 
+    height: 250px;
+   
+  }
+
+}
